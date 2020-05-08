@@ -19,8 +19,10 @@ Le IA calcule tous les mouvements possibles, ensuite supprime les badmoves en la
 
 Il faut envoyer le JSON suivant au port TCP 3001 du serveur:
 
+```json
 {
 	"matricules": ["17049", "17190"],
 	"port": 5031,
 	"name": "AvalamCiIA"
 }
+```
